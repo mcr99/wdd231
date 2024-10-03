@@ -1,0 +1,87 @@
+@media (min-width: 500px) {
+    /* Header */
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+        grid-template-rows: 80px;
+    }
+
+    .me {
+        grid-column: 2/3;
+        width: 40%;
+        height: 90%;
+        margin: 5px 5px 5px 30%;
+    }
+
+    .meh1 {
+        grid-column: 3/4;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    #hamb {
+        display: none;   
+    }
+
+    .hm a{
+        display: block;
+    }
+
+    nav.hm {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* Main */
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #courseWork, #guatemalaGuatemala, #webComputerProgCertificate {
+        border-radius: 10px;
+        box-shadow: 0 0 15px #000000;
+        background: #fff;
+    }
+
+    #webComputerProgCertificate {
+        grid-column: 1/3;
+    }
+
+    .webComputerProgCertificateH2{
+        width: 20%;
+    }
+
+    #webComputerProgCertificatediv{
+        display:flex;
+        border: 1px solid #0000;
+        margin-left: 36.5%;
+    }
+
+    #classes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-top: 1px solid rgb(108, 108, 108);
+    }
+
+    .completedCourse {
+        margin-right: 5px;
+        margin-left: 5px;
+        border: 1px solid black;
+    }
+
+    .courseCard{ 
+        margin-right: 5px;
+        margin-left: 5px;
+        border: 1px solid rgb(103, 103, 103);
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    #webComputerProgCertificatediv{
+        margin-left: 40%;
+    }
+}

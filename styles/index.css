@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@1,400;1,600&display=swap');
+
+body {
+    font-family: 'Roboto mono','Roboto slab', 'Roboto ital' ;
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(12, 12, 70);
+    color: azure;
+    padding: 10px;
+}
+
+#hamb{
+    background-color: rgb(12, 12, 70);
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: azure;
+    position: absolute;
+    top: 0em;
+    right: 1em;
+    display: block;
+} 
+
+#hamb::before{
+    content: "☰";
+}
+
+#hamb.open::before{
+    content: "X";
+}
+
+
+li {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+nav li:hover {
+    border: 1px solid #fff;
+}
+
+.me {
+    grid-column: 1/2;
+    width: 50%;
+    height: 80%;
+    margin: 10px;
+}
+
+.meh1 {
+    text-align:left;
+    grid-column: 2/4;
+}
+
+nav {
+    background-color: black;
+    color: azure;
+}
+
+.mainNav{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.hm a:hover {
+	font-weight: 700;
+}
+
+.hm {
+    display: none;
+	flex-direction: column;
+	list-style: none;
+	color: azure;
+}
+
+.open {
+    display: flex;
+}
+
+.hm a{
+    display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: azure;
+}
+
+.open a {
+    display: block;
+}
+
+/* Main */
+
+
+/* Couser Work */
+#courseWork {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#courseWorkH1 {
+    background-color: rgb(12, 12, 70);
+    color: azure;  
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px ;
+    text-align: center;
+    padding: 5px;
+}
+
+#courseWorkDiv {
+    padding: 100px;
+}
+
+/* Guatemala, Guatemala */
+
+#guatemalaGuatemala{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#guatemalaGuatemalaH1{
+    background-color: rgb(12, 12, 70);
+    color: azure;  
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px ;
+    text-align: center;
+    padding: 5px;
+}
+
+.guatemala{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#guatemalaGuatemalaH3{
+    text-align: center;
+}
+
+/* Web and Computer Programing Certificate */
+
+#webComputerProgCertificate {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#webComputerProgCertificateH1{
+    background-color: rgb(12, 12, 70);
+    color: azure;  
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px ;
+    text-align: center;
+    padding: 5px;
+}
+
+#webComputerProgCertificatediv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #0000;
+}
+
+
+#webComputerProgCertificatediv button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#webComputerProgCertificatediv button:hover {
+    background-color: rgb(46, 46, 90);
+}
+
+.courseCard { 
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4; 
+    text-align: center;
+}
+
+.completedCourse {
+    background-color: #406e8e;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(12, 12, 70);
+    text-align: center;
+}
+
+.nameP {
+    color: azure;
+    text-align: center;
+}
+
+.lastUpdateP{
+    color: #fded03;
+    padding: 20px;
+}
+
+.guatemalaflag {
+    width: 60px;
+    height: 40px;
+    padding: 20px 0px 0px 0px;
+}
+
+.MCG {
+    padding-top: -100px;
+}

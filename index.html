@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marvin Canastuj">
+    <meta name="description" content="WDD 231 - Web Frontend Development I">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script defer src="scripts/date.js"></script>
+    <script defer src="scripts/index.js" ></script>
+    <title>WDD 231 - Web Frontend Development I</title>
+</head>
+<body>
+    <header>
+        <img class="me" src="images/marvin.jpg" loading="lazy" alt="Marvin Canastuj">
+        <button id="hamb"></button>
+        <h1 class="meh1">Marvin Canastuj</h1>
+    </header>
+    <nav class="hm">
+        <li><a class="mainNav" href="index.html">Home</a></li>
+        <li><a class="mainNav" href="##">Chamber</a></li>
+        <li><a class="mainNav" href="##">Github Profile</a></li>
+        <li><a class="mainNav" href="##">LinkedIn</a></li>
+    </nav>
+    <main>
+        <section id="courseWork">
+            <h1 id="courseWorkH1" >Course Work</h1>
+            <div id="courseWorkDiv" ></div>
+        </section>
+        <section id="guatemalaGuatemala">
+            <h1 id="guatemalaGuatemalaH1" >Guatemala, Guatemala</h1>
+            <img class="guatemala" src="images/guatemala.png" loading="lazy" alt="Guatemala">
+            <h3 id="guatemalaGuatemalaH3" >Guatemala Volcano</h3>
+        </section>
+        <section id="webComputerProgCertificate">
+            <h1 id="webComputerProgCertificateH1" >Web and Computer Programming Certificate</h1>
+            <div id="webComputerProgCertificatediv">
+            <!-- ADDED -->
+            <button onclick="filterCourses('ALL')">ALL</button>
+            <button onclick="filterCourses('CSE')">CSE</button>
+            <button onclick="filterCourses('WDD')">WDD</button>
+            </div>
+            <div id="classes">
+            </div>
+            <p>Total Credits: <span id="totalCredits">0</span> </p>
+        </section>
+    </main>
+    <footer>
+        <p class="nameP" >©<span class="year"></span> Marvin Canastuj Guatemala <img class="guatemalaflag" src="images/guatemalaFlag.png" loading="lazy" alt="Guatemala Flag"></p>
+        <p class="lastUpdateP" >Last Update: <span class="lastUpdate"></span></p>
+    </footer>
+</body>
+</html>
