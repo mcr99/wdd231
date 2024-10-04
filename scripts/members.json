@@ -1,0 +1,23 @@
+{
+    "family_name": "Lopez",
+    "move_in_date": "05-23-2020",
+    "number_of_people": 3,
+    "visited_by_bishorpric": false,
+    "family_members": [
+        {
+            "name": "Maria Lopez",
+            "gender": "Female",
+            "birthday": "04-20-1990"
+        },
+        {
+            "name": "Juan Lopez",
+            "gender": "Male",
+            "birthday": "10-30-1992"
+        },
+        {
+            "name": "Mario Lopez",
+            "gender": "Male",
+            "birthday": "09-25-2005"
+        }
+    ]
+}
