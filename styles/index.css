@@ -12,6 +12,7 @@ header {
     background-color: rgb(12, 12, 70);
     color: azure;
     padding: 10px;
+    margin: -10px;
 }
 
 #hamb{
@@ -62,6 +63,7 @@ nav li:hover {
 nav {
     background-color: black;
     color: azure;
+    margin: -10px;
 }
 
 .mainNav{
@@ -213,6 +215,7 @@ nav {
 footer {
     background-color: rgb(12, 12, 70);
     text-align: center;
+    margin: -10px;
 }
 
 .nameP {
