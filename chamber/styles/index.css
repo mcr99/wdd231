@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@1,400;1,600&display=swap');
+
+body {
+    font-family: 'Roboto mono','Roboto slab', 'Roboto ital' ;
+}
+
+/* Header */ 
+
+header {
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    background-color: rgb(40, 40, 193);
+    margin: -10px -10px 0px -10px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.guatemala {
+    color: azure;
+    height: 2px;
+}
+
+.coc {
+    color: azure;
+}
+
+.gcoc {
+    text-align: center;
+}
+
+.darkMode {
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+#hamb{
+    background-color: rgb(12, 12, 70);
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: azure;
+    position: absolute;
+    top: 0em;
+    right: 1em;
+    display: block;
+    height: 8%;
+    width: 10%;
+
+} 
+
+#hamb::before{
+    content: "☰";
+}
+
+#hamb.open::before{
+    content: "X";
+}
+
+li {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+nav li:hover {
+    border: 1px solid #fff;
+}
+
+
+nav {
+    background-color: black;
+    color: azure;
+    margin: -10px;
+}
+
+.navbar{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.hm a:hover {
+	font-weight: 700;
+}
+
+.hm {
+    display: none;
+	flex-direction: column;
+	list-style: none;
+	color: azure;
+}
+
+.open {
+    display: flex;
+}
+
+.hm a{
+    display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: azure;
+}
+
+.open a {
+    display: block;
+}
+
+/* Main */
+
+.ib {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+
+.mainImg {
+    height: 200px;
+    width: 104%;
+    margin-left: -10px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+}
+
+.keynoteTickets {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 50%;
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 35%;
+    border-radius: 10px;
+    background-color: #f4c726;
+    font-size:medium;
+    font-weight: 100;
+    border: #f4c726;
+}
+
+.events {
+}
+
+.eventsh1{
+    text-align: center;
+    background-color: #f4c726;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.eventsd {
+    padding: 100px ;
+    margin-top: -20px;
+    background-color: #fcf4d7;
+}
+
+.currentWeatherh1 { 
+    text-align: center;
+    background-color: #f4c726;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.currentWeatherDiv {
+    padding: 100px ;
+    margin-top: -20px;
+    background-color: #fcf4d7;
+}
+
+.weatherForecasth1 {
+    text-align: center;
+    background-color: #f4c726;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.weatherForecastdiv {
+    padding: 100px ;
+    margin-top: -20px;
+    background-color: #fcf4d7;
+}
+
+.companies {
+    background-color: #fcf4d7;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(40, 40, 193);
+    margin: -10px;
+    color: azure;
+}
+
+.contactInfo{
+    padding-left: 20px;
+}
+
+.cihg {
+    padding-top: 10px;
+}
+
+.ytlLogo{
+    margin-left: 28%;
+}
+
+.youtubeIcone {
+    padding: 10px;
+}
+
+.twitterIcone {
+    padding: 10px;
+}
+
+.linkedinIcone {
+    padding: 10px;
+}
+
+.dateInfo {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
