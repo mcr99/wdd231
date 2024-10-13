@@ -185,10 +185,30 @@ nav {
     padding: 100px ;
     margin-top: -20px;
     background-color: #fcf4d7;
+    margin-bottom: 20px;
 }
 
 .companies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     background-color: #fcf4d7;
+}
+
+.member-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fcf4d7;
+    text-align: center;
+}
+
+.list-view {
+    display: block;
+}
+
+.list-view .member-card {
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 /* Footer */

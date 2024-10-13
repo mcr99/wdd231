@@ -47,7 +47,7 @@
     main {
         display: grid;
         grid-template-columns: 50px  2fr 1fr 1fr 50px ;
-        grid-template-rows: 100px 1fr 1fr;
+        grid-template-rows: 100px 0.25fr 1fr;
     }
 
     .homeh1 {
