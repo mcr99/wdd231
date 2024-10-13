@@ -2,39 +2,30 @@ const hamButton = document.querySelector("#hamb");
 const navigation = document.querySelector(".hm");
 
 hamButton.addEventListener("click", () => {
-        navigation.classList.toggle("open");
-        hamButton.classList.toggle("open");
-    });
+    navigation.classList.toggle("open");
+    hamButton.classList.toggle("open");
+});
 
-    /*
-    const toggleViewButton = document.createElement('button');
-    toggleViewButton.textContent = "Toggle View";
-    document.body.appendChild(toggleViewButton);
-    
-    toggleViewButton.addEventListener('click', ()=>{
-        const companiesContainer = document.querySelector('.companies');
-        companiesContainer.classList.toggle('grid-view');
-        companiesContainer.classList.toggle('list-view');
-    });
-
-    */
-
-
-const companiesContainer = document.querySelector('.companies');
 const toggleViewButton = document.createElement('button');
 toggleViewButton.textContent = "Toggle View";
+const toggleContainer = document.querySelector('.toggle');
 
-if (companiesContainer) {
-companiesContainer.insertBefore(toggleViewButton, companiesContainer.firstChild);
+let companiesContainer; 
 
-toggleViewButton.addEventListener('click', () => {
-    companiesContainer.classList.toggle('grid-view');
-    companiesContainer.classList.toggle('list-view');
-});
+if (toggleContainer) {
+    toggleContainer.insertBefore(toggleViewButton, toggleContainer.firstChild);
+
+    toggleViewButton.addEventListener('click', () => {
+        if (companiesContainer) {
+            companiesContainer.classList.toggle('grid-view');
+            companiesContainer.classList.toggle('list-view');
+        } else {
+            console.error('Error: .companies container not found in toggle view');
+        }
+    });
 } else {
-    console.error('Error: .companies container not found');
+    console.error('Error: .toggle container not found');
 }
-
 
 async function fetchMembers() {
     try {
@@ -45,23 +36,28 @@ async function fetchMembers() {
         const data = await response.json();
         const members = data.members;
 
-        const companiesContainer = document.querySelector('.companies');
-        companiesContainer.innerHTML = '';
+        companiesContainer = document.querySelector('.companies'); 
 
-        members.forEach(member => {
-            const memberCard = document.createElement('div');
-            memberCard.classList.add('member-card');
-            memberCard.innerHTML = `
-            <img src="${member.image}" alt="${member.name} logo" width="20%" height="20%" loading="lazy">
-            <h2>${member.name}</h2>
-            <p>${member.address}</p>
-            <p>${member.phonenumber}</p>
-            <a href="${member.url}" target="_blank">Visit Website</a>
-            <p> Membership Level: ${member.membershiplevel}</p>
-            <p>Established: ${member.otherinformation}</p>
-            `;
-            companiesContainer.appendChild(memberCard);
-        });
+        if (companiesContainer) {
+            companiesContainer.innerHTML = ''; 
+
+            members.forEach(member => {
+                const memberCard = document.createElement('div');
+                memberCard.classList.add('member-card');
+                memberCard.innerHTML = `
+                    <img src="${member.image}" alt="${member.name} logo" width="20%" height="20%" loading="lazy">
+                    <h2>${member.name}</h2>
+                    <p>${member.address}</p>
+                    <p>${member.phonenumber}</p>
+                    <a href="${member.url}" target="_blank">Visit Website</a>
+                    <p> Membership Level: ${member.membershiplevel}</p>
+                    <p>Established: ${member.otherinformation}</p>
+                `;
+                companiesContainer.appendChild(memberCard);
+            });
+        } else {
+            console.error('Error: .companies container not found in fetchMembers');
+        }
     } catch (error) {
         console.error("Error fetching member data:", error);
     }
