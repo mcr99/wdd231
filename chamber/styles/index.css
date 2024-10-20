@@ -113,6 +113,7 @@ nav {
 
 /* Main */
 
+
 .ib {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -152,7 +153,7 @@ nav {
 }
 
 .eventsd {
-    padding: 100px;
+    padding: 270px 200px;
     margin-top: -20px;
     background-color: #fcf4d7;
 }
@@ -165,10 +166,18 @@ nav {
 }
 
 .currentWeatherDiv {
-    padding: 100px;
+    padding: 10px 25px 0px 25px;
     margin-top: -20px;
     background-color: #fcf4d7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+#weatherImage {
+    padding-top: 40%;
+}
+
+
 
 .weatherForecasth1 {
     text-align: center;

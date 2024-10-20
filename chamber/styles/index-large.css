@@ -1,0 +1,135 @@
+@media (min-width: 500px) {
+
+    /* Header */
+    header {
+        display: grid;
+        grid-template-columns: 50px 1fr 2fr 1fr 50px;
+        grid-template-rows: 80px;
+    }
+
+    .logo {
+        grid-column: 2/3;
+        padding-left: 10%;
+    }
+
+    .darkMode {
+        padding-left: 70%;
+        padding-top: 3%;
+    }
+
+    #hamb {
+        display: none;
+    }
+
+    .hm a {
+        display: block;
+    }
+
+    nav.hm {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .mainImg {
+        width: 92%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+    }
+
+    .keynoteTickets {
+        margin-top: 8%;
+        height: 40%;
+        width: 50%;
+    }
+
+    /* Main */
+
+
+    main {
+        display: grid;
+        grid-template-columns: 50px 2fr 1fr 1fr 50px;
+        grid-template-rows: 100px 0.25fr 50px 1fr;
+    }
+
+    .homeh1 {
+        grid-column: 2/5;
+        grid-row: 1/2;
+        padding-left: 10px;
+    }
+
+    .events {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .eventsd {
+        padding-bottom: 130px;
+        margin-bottom: 10px;
+    }
+
+    .currentWeather {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .currentWeatherDiv {
+        padding-bottom: 60px;
+        margin-bottom: 10px;
+    }
+
+    .weatherForecast {
+        grid-column: 4/5;
+        grid-row: 2/3;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .weatherForecastdiv {
+        padding-bottom: 80px;
+        margin-bottom: 10px;
+    }
+
+    .companies {
+        grid-column: 2/5;
+        grid-row: 4/5;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .toggle {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        height: 40px;
+        width: 100px;
+        margin-left: 110%;
+    }
+
+    #weatherImage {
+        padding-top: 140%;
+
+    }
+
+
+    /* footer */
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .ytlLogo {
+        margin-left: 22%;
+        margin-top: 10%;
+    }
+
+    .dateInfo {
+        margin-top: 10px;
+    }
+
+}

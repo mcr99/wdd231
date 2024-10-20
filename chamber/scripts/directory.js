@@ -10,7 +10,7 @@ const toggleViewButton = document.createElement('button');
 toggleViewButton.textContent = "Toggle View";
 const toggleContainer = document.querySelector('.toggle');
 
-let companiesContainer; 
+let companiesContainer;
 
 if (toggleContainer) {
     toggleContainer.insertBefore(toggleViewButton, toggleContainer.firstChild);
@@ -36,10 +36,10 @@ async function fetchMembers() {
         const data = await response.json();
         const members = data.members;
 
-        companiesContainer = document.querySelector('.companies'); 
+        companiesContainer = document.querySelector('.companies');
 
         if (companiesContainer) {
-            companiesContainer.innerHTML = ''; 
+            companiesContainer.innerHTML = '';
 
             members.forEach(member => {
                 const memberCard = document.createElement('div');

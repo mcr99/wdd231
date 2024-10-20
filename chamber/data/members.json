@@ -1,68 +1,67 @@
 {
     "members": [
         {
-            "name":"Apple",
-            "address":"4A Av 11 24 Zone 10. Guatemala",
-            "phonenumber":"1-800-692-7753",
-            "url":"https://www.apple.com/la/",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/apple-logo.png",
-            "membershiplevel":"1=member",
-            "otherinformation":"April 1, 1976"
+            "name": "Apple",
+            "address": "4A Av 11 24 Zone 10. Guatemala",
+            "phonenumber": "1-800-692-7753",
+            "url": "https://www.apple.com/la/",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/apple-logo.png",
+            "membershiplevel": "2=silver",
+            "otherinformation": "April 1, 1976"
         },
         {
-            "name":"Blackberry",
-            "address":"3 Ave 10-80 Zone 10, Guatemala",
-            "phonenumber":"1-800-511-8011",
-            "url":"https://www.blackberry.com/la/es",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/blackberry.png",
-            "membershiplevel":"2=silver",
-            "otherinformation":"January 19, 1999"
+            "name": "Blackberry",
+            "address": "3 Ave 10-80 Zone 10, Guatemala",
+            "phonenumber": "1-800-511-8011",
+            "url": "https://www.blackberry.com/la/es",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/blackberry.png",
+            "membershiplevel": "2=silver",
+            "otherinformation": "January 19, 1999"
         },
         {
-
-            "name":"Coca Cola",
-            "address":"26 street, Zone 11, Guatemala",
-            "phonenumber":"22137500",
-            "url":"https://www.coca-cola.com/gt/es",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/cocacola.png",
-            "membershiplevel":"3=gold",
-            "otherinformation":"July 1886"
+            "name": "Coca Cola",
+            "address": "26 street, Zone 11, Guatemala",
+            "phonenumber": "22137500",
+            "url": "https://www.coca-cola.com/gt/es",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/cocacola.png",
+            "membershiplevel": "3=gold",
+            "otherinformation": "July 1886"
         },
         {
-            "name":"Nike",
-            "address":"2 street 3-20 zone 17, Guatemala",
-            "phonenumber":"8008066453",
-            "url":"https://www.nike.com/es/",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/nike.png",
-            "membershiplevel":"1=member",
-            "otherinformation":"Januar 25, 1964"
+            "name": "Nike",
+            "address": "2 street 3-20 zone 17, Guatemala",
+            "phonenumber": "8008066453",
+            "url": "https://www.nike.com/es/",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/nike.png",
+            "membershiplevel": "3=gold",
+            "otherinformation": "Januar 25, 1964"
         },
         {
-            "name":"Pepsi",
-            "address":"Calzada San Juan 34-01 zona 7, Guatemala",
-            "phonenumber":"24207100",
-            "url":"https://www.pepsi.com/",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/pepsi.png",
-            "membershiplevel":"2=silver",
-            "otherinformation":"1942"
+            "name": "Pepsi",
+            "address": "Calzada San Juan 34-01 zona 7, Guatemala",
+            "phonenumber": "24207100",
+            "url": "https://www.pepsi.com/",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/pepsi.png",
+            "membershiplevel": "2=silver",
+            "otherinformation": "1942"
         },
         {
-            "name":"Samsung",
-            "address":"5 ave 5-55 zone 14 Guatemala",
-            "phonenumber":"23026400",
-            "url":"https://www.samsung.com/latin/",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/samsung.png",
-            "membershiplevel":"3=gold",
-            "otherinformation":"1989"
+            "name": "Samsung",
+            "address": "5 ave 5-55 zone 14 Guatemala",
+            "phonenumber": "23026400",
+            "url": "https://www.samsung.com/latin/",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/samsung.png",
+            "membershiplevel": "3=gold",
+            "otherinformation": "1989"
         },
         {
-            "name":"Sony",
-            "address":"27 street 19-00, Zone 5 , Guatemala",
-            "phonenumber":"24198888",
-            "url":"https://www.sony.com.gt/",
-            "image":"https://mcr99.github.io/wdd231/chamber/image/sony.png",
-            "membershiplevel":"1=member",
-            "otherinformation":"May 7, 1946"
+            "name": "Sony",
+            "address": "27 street 19-00, Zone 5 , Guatemala",
+            "phonenumber": "24198888",
+            "url": "https://www.sony.com.gt/",
+            "image": "https://mcr99.github.io/wdd231/chamber/image/sony.png",
+            "membershiplevel": "3=gold",
+            "otherinformation": "May 7, 1946"
         }
     ]
 }
