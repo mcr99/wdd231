@@ -2,7 +2,7 @@
     "members": [
         {
             "name":"Apple",
-            "address":"4A Av 11 24 Zona 10. Guatemala",
+            "address":"4A Av 11 24 Zone 10. Guatemala",
             "phonenumber":"1-800-692-7753",
             "url":"https://www.apple.com/la/",
             "image":"https://mcr99.github.io/wdd231/chamber/image/apple-logo.png",
@@ -11,7 +11,7 @@
         },
         {
             "name":"Blackberry",
-            "address":"3 Ave 10-80 Zona 10, Guatemala",
+            "address":"3 Ave 10-80 Zone 10, Guatemala",
             "phonenumber":"1-800-511-8011",
             "url":"https://www.blackberry.com/la/es",
             "image":"https://mcr99.github.io/wdd231/chamber/image/blackberry.png",
@@ -21,7 +21,7 @@
         {
 
             "name":"Coca Cola",
-            "address":"26 Calle, Zona 11, Guatemala",
+            "address":"26 street, Zone 11, Guatemala",
             "phonenumber":"22137500",
             "url":"https://www.coca-cola.com/gt/es",
             "image":"https://mcr99.github.io/wdd231/chamber/image/cocacola.png",
@@ -30,12 +30,12 @@
         },
         {
             "name":"Nike",
-            "address":"Ruta al Atlantico 03-20 local 213 zona 17, Guatemala",
+            "address":"2 street 3-20 zone 17, Guatemala",
             "phonenumber":"8008066453",
             "url":"https://www.nike.com/es/",
             "image":"https://mcr99.github.io/wdd231/chamber/image/nike.png",
             "membershiplevel":"1=member",
-            "otherinformation":"25 de enero de 1964"
+            "otherinformation":"Januar 25, 1964"
         },
         {
             "name":"Pepsi",
@@ -48,7 +48,7 @@
         },
         {
             "name":"Samsung",
-            "address":"5 avenida 5-55 zona 14 Guatemala",
+            "address":"5 ave 5-55 zone 14 Guatemala",
             "phonenumber":"23026400",
             "url":"https://www.samsung.com/latin/",
             "image":"https://mcr99.github.io/wdd231/chamber/image/samsung.png",
@@ -57,7 +57,7 @@
         },
         {
             "name":"Sony",
-            "address":"27 Calle 19-00, Zona 5 , Guatemala",
+            "address":"27 street 19-00, Zone 5 , Guatemala",
             "phonenumber":"24198888",
             "url":"https://www.sony.com.gt/",
             "image":"https://mcr99.github.io/wdd231/chamber/image/sony.png",

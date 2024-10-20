@@ -188,9 +188,19 @@ nav {
     margin-bottom: 20px;
 }
 
+.toggle  button {
+    background-color: #f4c726;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    border-radius: 10px;
+    border: #f4c726;
+}
+
 .companies {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     background-color: #fcf4d7;
 }

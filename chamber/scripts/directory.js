@@ -45,7 +45,7 @@ async function fetchMembers() {
                 const memberCard = document.createElement('div');
                 memberCard.classList.add('member-card');
                 memberCard.innerHTML = `
-                    <img src="${member.image}" alt="${member.name} logo" width="20%" height="20%" loading="lazy">
+                    <img src="${member.image}" alt="${member.name} logo" width="20%" height="20%" loading="lazy"> 
                     <h2>${member.name}</h2>
                     <p>${member.address}</p>
                     <p>${member.phonenumber}</p>
