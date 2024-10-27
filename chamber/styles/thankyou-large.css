@@ -42,17 +42,7 @@
         width: 50%;
     }
 
-    /* Main */
-
-    main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 20px;
-    }
-
-    input, select, textarea{
-        padding: 10px 200px;
-    }
+     /* Main */
 
      /* footer */
 

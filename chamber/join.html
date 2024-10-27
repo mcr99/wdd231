@@ -36,19 +36,20 @@
         <a class="navbar" href="discover.html">Discover</a></li>
     </nav>
 
+    <main>
     <form method="get" action="thankyou.html">
         <div>First Name</div>
         <label> <input class="firstName" type="text" name="first-name" title="First Name" autocomplete="on"required> </label>
         <div>Last Name</div>
         <label> <input class="lastName" type="text" name="last-name" title="Last Name" autocomplete="on" required> </label>
         <div> Organizational Title</div>
-        <label> <input class="organizationalTitle" type="text" name="organizational-title" title="Organizational Title" autocomplete="organization-title"  pattern="[A-Za-z/s/-]{7,}" placeholder="Enter Organizational title" required> </label>
+        <label> <input class="organizationalTitle" type="text" name="organizational-title" title="Organizational Title" autocomplete="organization-title"  pattern="[A-Za-z\s\-]{7,}" placeholder="Enter Organizational title" required> </label>
         <div>Email Address</div>
         <label> <input type="email" required name="email" title="email" autocomplete="on" placeholder="example@gmail.com"> </label>
         <div>Phone Number</div>
         <label> <input type="tel" required name="phone-number" title="Phone Number" autocomplete="on"> </label>
         <div>Business/Organization's Name</div>
-        <label> <input type="text" required name="business/Organization's-name" title="Business/Organization's Name" autocomplete="organization"> </label>
+        <label> <input type="text" required name="business-name" title="Business/Organization's Name" autocomplete="organization"> </label>
         <div>Membership Level</div>
         <label>
             <select name="Membership" id="Membership" required>
@@ -58,11 +59,31 @@
         <div>Description</div>
         <label> <textarea title="Description" name="description"> </textarea> </label>
         <label> <input type="hidden" id="timestamp" name="timestamp"> </label>
-        <button>Apply for Membership</button>
-
-
+        <button class="apply">Apply for Membership</button>
     </form>
 
+    <div class="cards">
+        <div class="cardN">
+            <h3>Non Profit Membership Level</h3>
+            <button class="openButton1">Learn More</button>
+        </div>
+        <div class="cardB">
+            <h3>Bronze Membership Level</h3>
+            <button class="openButton2">Learn More</button>
+        </div>
+        <div class="cardS">
+            <h3>Silver Membership Level</h3>
+            <button class="openButton3">Learn More</button>
+        </div>
+        <div class="cardG">
+            <h3>Gold Membership Level</h3>
+            <button class="openButton4">Learn More</button>
+        </div>
+        <dialog id="dialogBox">
+            <div></div>
+            <button id="closeButton">Close</button>
+    </div>
+    </main>
 
     <footer>
         <div class="contactInfo">

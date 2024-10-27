@@ -113,98 +113,14 @@ nav {
 
 /* Main */
 
-form {
-    padding-left: 0%;
-    margin-top: 10px;
-    background-color: rgb(204, 229, 255);
-    border-radius: 10px;
-    display: grid;
-}
-
-form div {
-    padding: 10px;
-}
-
-form label {
-    padding: 10px;
-}
-
-input, select, textarea{
-    padding: 10px 140px;
-    border-radius: 10px;
-    text-align: left;
-}
-
-.apply {
-    border-radius: 10px;
-    background-color: rgb(12, 12, 70);
-    color: azure;
-    padding: 10px;
-}
-
-.apply:hover {
-    background-color: azure;
-    color: rgb(12, 12, 70);
-}
-
-.cards {
-    padding: 10px;
-}
-
-.cardN, .cardB, .cardS, .cardG  {
-    border: 1px solid #000000;
-    border-radius: 5px 20px 5px 20px ;
+main {
     text-align: center;
-    padding: 10px;
-    background-color: rgb(204, 229, 255);
-    margin-bottom: 10px;
-}
-
-.openButton1, .openButton2, .openButton3, .openButton4 {
-    background-color: rgb(12, 12, 70);
-    color: azure;
+    margin: 20px;
     padding: 5px;
+    background-color: rgb(204, 229, 255);
     border-radius: 10px;
-}
 
-div button:hover  {
-    background-color: azure;
-    color: rgb(12, 12, 70);
 }
-
-#dialogBox {
-    background-color: rgb(12, 12, 70);
-    color: azure;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#closeButton {
-    background-color: azure;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-#closeButton:hover{
-    background-color: rgb(199, 203, 250);
-    color: rgb(12, 12, 70);
-}
-
-input:required {
-    border-left-color: #d70000;
-}
-
-input:focus {
-    border-left-color: black; outline:none;
-}
-
-input:required:valid{
-    border-left-color: green;
-}
-
-/* Footer */
 
 footer {
     background-color: rgb(40, 40, 193);
