@@ -97,6 +97,88 @@ nav {
 
 /* main */
 
+.fb {
+    padding: 50px;
+    text-align: center;
+}
+
+.fb div {
+    font-size: 25px;
+}
+
+input, select, textarea {
+    border-radius: 10px;
+    height: 44px;
+    width: 300px;
+    text-align: center;
+}
+
+input:hover, select:hover, textarea:hover {
+    background-color: #eaeaea;
+}
+
+.book {
+    margin-left: 30%;
+    background-color: #FCA311;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.book:hover {
+    background-color: #14213D;
+    color: azure;
+}
+
+.cards {
+    padding: 20px;
+    text-align: center;
+}
+
+.openButton1 {
+    background-color: #FCA311;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+.openButton1:hover {
+    background-color: #14213D;
+    color: azure;
+}
+
+.openButton2:hover {
+    background-color: #14213D;
+    color: azure;
+}
+
+.openButton2 {
+    background-color: #FCA311;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+#dialogBox {
+    background-color: #14213D;
+    color: azure;
+    text-align: center;
+}
+
+#closeButton {
+    background-color: #FCA311;
+    margin-top: 10px;
+    height: 44px;
+    width: 200px;
+}
+
+#closeButton:hover {
+    background-color: azure;
+}
 
 /* footer */
 

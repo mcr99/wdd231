@@ -31,7 +31,51 @@
         <a class="navbar" href="joinus.html">Join Us</a>
     </nav>
 
-    <main></main>
+    <main>
+        <div class="formd">
+        <form class="fb" method="get" action="thankyou.html">
+            <div>First Name</div>
+            <label> <input class="firstName" type="text" name="fname" title="First Name" autocomplete="on" required> </label>
+            <div>Last Name</div>
+            <label> <input class="lastName" type="text" name="lname" title="Last Name" autocomplete="on" required> </label>
+            <div>Phone Number</div>
+            <label> <input class="phone" type="tel" name="phone" title="Phone Number" autocomplete="on" placeholder="55443322" required> </label>
+            <div>Email</div>
+            <label> <input class="email" type="email" name="email" title="email" autocomplete="on" placeholder="example@gmail.com" required> </label>
+            <div>Date</div>
+            <label> <input class="date" type="date" name="date" title="Date" required > </label>
+            <div>Activity</div>
+            <label>            
+                <select name="Activity" id="activity" required>
+                <option value="" disabled selected>Select Activity</option>
+                </select>
+            </label>
+            <div>Comments</div>
+            <label>
+                <textarea  class="comments" title="Comments" name="comments"> </textarea>
+            </label>
+            
+        </form>
+        <button class="book">Book a date for your Friend </button>
+        </div>
+
+        <div class="cards">
+            <div class="card1">
+                <div class="cardG">
+                    <h3>Grooming</h3>
+                    <button class="openButton1">Learn More</button>
+                </div>
+                <div class="cardP">
+                    <h3>Park</h3>
+                    <button class="openButton2">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <dialog id="dialogBox">
+            <div></div>
+            <button id="closeButton">Close</button>
+
+    </main>
 
     <Footer>
         <div class="contactInfo">

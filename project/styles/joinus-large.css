@@ -24,6 +24,19 @@
 
     /* main */
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .formd{
+        margin-bottom: 100px;
+    }
+
+    .cards {
+        margin-top: 30%;
+    }
+
     /* footer */
 
     footer {
