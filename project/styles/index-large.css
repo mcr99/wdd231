@@ -23,15 +23,30 @@
     }
 
     /* image */
-
-    .joinImage{
-        width: 92%;
-        padding-left: 5%;
-        padding-right: 5%;
+    .bookImg {
         padding-top: 10px;
     }
 
+    .bookD{
+        margin-top: 50%;
+        margin-left: 25%;
+        height: 100px;
+        width: 200px;
+        font-size: 60px;
+    }
+
+
     /* main */
+
+    .imgDog {
+        height: 200px;
+        width: 300px;
+        margin: 25px;
+    }
+
+    .imgDogD {
+        margin: 5px;
+    }
 
     /* footer */
 
@@ -43,5 +58,18 @@
     .logos {
         margin-left: 20%;
         margin-top: 15%;
+    }
+
+    .wheater {
+        margin-left: 1px;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+
+    .imgDogD {
+        margin-left: 30px;
     }
 }
