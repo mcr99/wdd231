@@ -1,0 +1,47 @@
+@media (min-width: 500px) {
+    /* header */
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dogLogo{
+        margin-left: 80%;
+    }
+
+    #hamb {
+        display: none;
+    }
+
+    .hm a {
+        display: block;
+    }
+
+    nav.hm {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* image */
+
+    .joinImage{
+        width: 92%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+    }
+
+    /* main */
+
+    /* footer */
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .logos {
+        margin-left: 20%;
+        margin-top: 15%;
+    }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@1,400;1,600&display=swap');
+
+body {
+    font-family: 'Roboto mono', 'Roboto slab', 'Roboto ital';
+}
+
+/* header */
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #14213D;
+    margin: -10px -10px 0px -10px;
+}
+
+.dogLogo {
+    height: 60px;
+    width: 60px;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.fifisGroomingh2{
+    color: azure;
+}
+
+#hamb {
+    grid-column: 2/3;
+    background-color: #14213D;
+    color: azure;
+    font-size: 2rem;
+    border: 0;
+    background-color: none;
+    position: absolute;
+    top: 0em;
+    right: 1em;
+    display: block;
+    height: 8%;
+    width: 10%;
+}
+
+#hamb::before {
+    content: "☰";
+}
+
+#hamb.open::before {
+    content: "X";
+}
+
+a {
+    text-align: center;
+    list-style: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+    background-color: #000000;
+}
+
+nav {
+    background-color: #14213D;
+    color: azure;
+    margin: -10px;
+}
+
+.navbar {
+    text-decoration: none;
+    color: azure;
+}
+
+.hm a:hover {
+    font-weight: 700;
+}
+
+.hm {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    color: azure;
+}
+
+.open {
+    display: flex;
+}
+
+.hm a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+}
+
+.open a {
+    display: block;
+}
+
+
+/* main */
+
+
+/* footer */
+
+footer {
+    background-color: #14213D;
+    margin: -10px;
+
+    color: azure;
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+.logos {
+    text-align: center;
+}
+
+.dataInfo {
+    text-align: center;
+}
