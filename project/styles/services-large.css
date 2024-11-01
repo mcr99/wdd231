@@ -24,6 +24,13 @@
 
     /* main */
 
+    .activities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+    }
+
+
     /* footer */
 
     footer {
@@ -36,3 +43,4 @@
         margin-top: 15%;
     }
 }
+

@@ -1,0 +1,44 @@
+{
+    "services": [
+        {
+            "activity": "Grooming",
+            "image": "https://mcr99.github.io/wdd231/project/images/dog-home1.jpg",
+            "details": "Regular Brushing: Brush your dog’s coat at least once a week to prevent matting and reduce shedding. The type of brush varies based on coat type (slicker brushes for curly coats, bristle brushes for short-haired breeds)."
+        },
+        {
+            "activity": "Grooming",
+            "image": "https://mcr99.github.io/wdd231/project/images/dog-home2.jpg",
+            "details": "Bathing Schedule: Bathe your dog every 4-6 weeks, depending on activity level and coat type. Use dog-specific shampoo to avoid skin irritation."
+        },
+        {
+            "activity": "Grooming",
+            "image": "https://mcr99.github.io/wdd231/project/images/dog-home3.jpg",
+            "details": "Nail Trimming: Trim nails every 3-4 weeks. Keep the clippers sharp, and avoid the quick (the pinkish area with nerves and blood vessels) to prevent pain."
+        },
+        {
+            "activity": "Grooming",
+            "image": "https://mcr99.github.io/wdd231/project/images/dog-home4.jpg",
+            "details": "Ear Cleaning: Check ears weekly for signs of wax buildup or infection. Use a vet-approved ear cleaner, and gently wipe only the visible parts of the ear."
+        },
+        {
+            "activity": "Park",
+            "image": "https://mcr99.github.io/wdd231/project/images/park1.jpg",
+            "details": "Regular Walks: Aim for at least one walk a day to keep your dog active and stimulated. Adjust the length and intensity based on their breed, age, and energy level."
+        },
+        {
+            "activity": "Park",
+            "image": "https://mcr99.github.io/wdd231/project/images/park2.jpg",
+            "details": "Hiking Adventures: Many dogs love hiking trails. Start with easy trails, bring plenty of water, and watch for signs of fatigue, especially in hot weather."
+        },
+        {
+            "activity": "Park",
+            "image": "https://mcr99.github.io/wdd231/project/images/park3.jpg",
+            "details": "etch & Frisbee: Playing fetch or Frisbee is a great way for high-energy dogs to burn off steam. A spacious park or beach is ideal, but make sure it’s a safe, off-leash-friendly area."
+        },
+        {
+            "activity": "Park",
+            "image": "https://mcr99.github.io/wdd231/project/images/park4.jpg",
+            "details": "Agility Course: Set up a simple agility course in your backyard or visit a local dog park with one. Use items like cones, tunnels, and jumps to create an obstacle course. It’s a fun way to build your dog's agility and strengthen your bond through training."
+        }
+    ]
+}
