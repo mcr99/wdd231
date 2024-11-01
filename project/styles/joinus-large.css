@@ -49,3 +49,13 @@
         margin-top: 15%;
     }
 }
+
+@media (min-width: 500px){
+    form {
+        display: grid;
+    }
+
+    .book {
+        margin-left: 31%;
+    }
+}
